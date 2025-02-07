@@ -26,7 +26,7 @@ pipeline {
             steps {
                 script {
                     // Run SonarQube analysis
-                    sh 'mvn sonar:sonar -Dsonar.projectKey=java-hello-world -Dsonar.host.url=http://<sonarqube-server-url>'
+                    sh 'mvn sonar:sonar -Dsonar.projectKey=java-hello-world -Dsonar.host.url=http://54.151.124.176:9000'
                 }
             }
         }
