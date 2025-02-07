@@ -85,9 +85,9 @@
           <version>3.6.1</version>
         </plugin>
           <plugin>
-            <artifactId>sonar-maven-plugin</artifactId>
-            <version>4.3.0.2102</version> <!-- Use the latest compatible version -->
-          </plugin>
+         <artifactId>sonar-maven-plugin</artifactId>
+         <version>4.6.0.2311</version> <!-- You can use the latest version available -->
+         </plugin>
       </plugins>
     </pluginManagement>
   </build>
