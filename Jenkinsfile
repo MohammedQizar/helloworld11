@@ -26,7 +26,7 @@ pipeline {
             steps {
                 script {
                     // Run SonarQube analysis
-                   sh 'mvn sonar:sonar -Dsonar.projectKey=java-hello-world -Dsonar.host.url=http://54.151.124.176:9000 -Dsonar.maven.plugin.version=4.0.0.4121 -DargLine="--add-opens java.base/java.lang=ALL-UNNAMED"'
+                   sh 'mvn sonar:sonar -Dsonar.projectKey=java-hello-world -Dsonar.host.url=http://54.151.124.176:9000'
 
                 }
             }
